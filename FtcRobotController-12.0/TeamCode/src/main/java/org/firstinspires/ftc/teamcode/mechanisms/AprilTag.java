@@ -1,3 +1,5 @@
+package AprilTag
+
 package org.firstinspires.ftc.teamcode.mechanisms;
 
 import android.graphics.Canvas;
@@ -18,7 +20,7 @@ import org.opencv.core.Mat;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AprilTagWebcam {
+public class AprilTag {
     private AprilTagProcessor aprilTagProcessor;
     private VisionPortal visionPortal;
     private List<AprilTagDetection> detectedtags = new ArrayList<>();
